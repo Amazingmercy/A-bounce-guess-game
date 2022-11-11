@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing game</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="play_board" width="350" height="350">
+            <div id="box"
+                style="background-color: rgb(182, 35, 182); border-radius: 10px; position: absolute; left: 0px; top: 0px; min-width: 50px; min-height: 50px; text-align: center; font-weight: bold; color:white; padding: 10px">
+                BOUNCE </div>
+                <p id="status1" style="color: rgb(19, 108, 181)  ;"> Guessing Time!! </p> 
+        </div>
+        <div id="score_text"> 0 </div> 
+        <div class="flex">
+            <div id="speed"> Speed: </div>
+            <div id="speed_count"> 0 </div>
+            <div id="timer"> Timer(seconds):</div>
+            <div id="time_in_seconds"> 0 </div>
+        </div>
+        <div class="flex1">
+        <p class="status"> Guess bounce(s): </p>
+        <input id="user_input"> 
+        <button id="enter_but" onclick ="check_game_start()"> Enter </button> 
+        <button id="reset_but" ondblclick ="reset_game()"> Reset </button>
+        </div>
+    </div>
+
+
+    
+<script type="text/javascript" src="script.js"></script>
+</body>
+
+
+
+
+</html>

@@ -1,0 +1,121 @@
+body{
+    background-color:goldenrod;
+    width: auto;
+    height: fit-content; 
+    position: relative;   
+}
+#container{
+    text-align: center;
+}
+#play_board{
+    margin:auto;
+    height:350px;
+    width: 350px;
+    background-color: azure;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    border: 3px solid;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#score_text{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+#reset_but{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin-left: 100px;
+    background-color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#reset_but:hover{
+    background-color: rgb(182, 35, 182);
+    cursor: pointer;
+    border-radius: 6px solid;
+}
+#enter_but:hover{
+    background-color: rgb(182, 35, 182);
+    cursor: pointer;
+    border-radius: 6px solid;
+}
+#timer{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+    padding: 5px;
+    font-weight: bolder;
+}
+#time_in_seconds{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: left;
+    padding: 5px;
+    font-weight: bolder;
+}
+.flex, .flex1{
+    display: flex;
+}
+.flex{
+   text-align: left;
+}
+#status1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: wavy;
+    margin:50%;
+    font-size: 30px;
+    text-align: center;
+}
+.status{
+    margin-right: 2%;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+    height: 50px;
+}
+#user_input{ 
+    width: 150px;
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    text-align: center;
+}
+#enter_but{
+    height: 50px;
+    border: 4px solid;
+    border-radius: 15px;
+    text-align: center;
+    width: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+#speed{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px;
+    font-weight: bolder;
+}
+#speed_count{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: right;
+    padding: 5px;
+    font-weight: bolder;
+    margin-right: 50%;
+}
+
+
